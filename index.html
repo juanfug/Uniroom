@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My University Room</title>
+    <title>UniRoom</title> 
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+        <!--JQUERY-->
+    <script src="https://ajax.googleapis.comm/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Primer Mes</li>
-            <li>Segundo Mes</li>
-            <li>Tercer Mes</li>
-            <li>Cuarto Mes</li>
-        </ul>
-    </nav>
-    <div>
-        <h3>Este es un proyecto para trabajar en vacaciones y terminarlo antes de agosto</h3>
-        <p>lorem input</p>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="../UniRoom/img/avatar.jpg" alt="">
+                </div>
+                <form class="col-12">
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Usuario">
+                    </div>
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="Contraseña">
+                    </div>
+                    <button type="button" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Iniciar Sesion</button>
+                </form>
+                <div class="col-12 forgot">
+                    <a href="#"> Olvide Mi Contraseña </a>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="links">
-        <a href="https://laravel.com/docs">Pensiones</a>
-        <a href="https://laracasts.com">Apartamentos</a>
-        <a href="https://laravel-news.com">Casas</a>
-        <a href="https://forge.laravel.com">Vacaciones y festivos</a>
-        <a href="https://github.com/laravel/laravel">Inmuebles en venta</a>
-    </div>
+
 </body>
 </html>

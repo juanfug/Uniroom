@@ -1,0 +1,167 @@
+/*banner dentro del slider*/
+.textconten{
+    position:absolute;
+    top: 30%;
+    left: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 300%;
+    color:#fff;   
+}
+
+.textconten h2{
+    font-size: 34px;
+}
+
+.textconten p{
+    font-size: 22px;
+}
+.textconten a{
+    width: 120px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 8px;
+    border: 2px solid #fff;
+    font-size: 16px;
+}
+
+.textconten a:hover{
+    background: rgba(51, 51, 51, 0.5);
+}
+
+
+/*Contenido y cuerpo del inicio*/
+
+.contenido{
+    text-align: center;
+    color: seashell;
+}
+
+#blogcont h3{
+    color: seashell;
+}
+#blogcont h3, h4{
+    text-align: center;
+}
+
+#blogcont .informacion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blogcont article{
+    margin: 15px;
+}
+
+#blogcont img{
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+}
+
+
+/*section team*/
+
+#team {
+    background: #333333;
+    color: seashell;
+    text-align: center;
+    padding: 20px;
+}
+
+#team .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-dev{
+    margin: 20px;
+}
+
+.info-dev img{
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+/*footer y pie de pagina*/
+
+
+
+footer{
+    max-width: 1350px;
+    margin: auto;
+}
+
+/*footer .logo-foot{
+    text-align: center;
+}
+ footer .logo-foot img{
+    width: 80px;
+}*/
+
+footer .redes-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .redes-footer a {
+    font-size: 40px;
+    margin: 10px;
+    background: whitesmoke;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: rgb(207, 197, 197);
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: rgb(218, 60, 205);
+    color: #333;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: rgb(32, 32, 175);
+    color: cornsilk;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+footer .redes-footer .fa-whatsapp:hover {
+    background: rgb(85, 207, 122);
+    color: cornsilk;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin: 10px;
+}
+footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #cedad7;
+}
+
+footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color:seashell;
+    font-weight: 500;
+}
