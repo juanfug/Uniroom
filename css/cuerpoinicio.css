@@ -5,7 +5,8 @@
     left: 18%;
     transform: translateX(-50%) translateY(-50%);
     opacity: 300%;
-    color:#fff;   
+    color:#fff;  
+     
 }
 
 .textconten h2{
@@ -23,6 +24,7 @@
     padding: 5px;
     margin-top: 8px;
     border: 2px solid #fff;
+    border-radius: 5px;
     font-size: 16px;
 }
 
@@ -33,36 +35,92 @@
 
 /*Contenido y cuerpo del inicio*/
 
-.contenido{
+.contenido p, h2, h3{
     text-align: center;
     color: seashell;
 }
 
-#blogcont h3{
-    color: seashell;
-}
-#blogcont h3, h4{
+.blogcont  h4{
     text-align: center;
 }
 
-#blogcont .informacion{
+.blogcont .informacion h4, p, a{
+    color:black;
+}
+.blogcont .informacion {
+    width: 1300px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-#blogcont article{
+.blogcont .informacion .informaciones{
+    
+    flex-wrap: wrap;
+    margin:20px;
+    
+    
+    border-radius: 6px;
+    overflow: hidden;
+    background: aliceblue;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0,2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+.informaciones:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.informacion img{
+    width: 100%;
+    height: 210px;
+    max-width: 320px;
+}
+
+.blogcont .informacion{
+    padding: 15px;
+    text-align: center;
+}
+
+.blogcont .informacion p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.blogcont .informacion h4{
+    font-weight: 400;
+    margin-bottom: 15px;    
+}
+
+.blogcont .informacion a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cd;
+    border: 1px solid #2fb4cd;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    
+}
+.blogcont .informacion a:hover{
+    background: #2fb4cd;
+    color:#fff;
+}
+.blogcont article{
     margin: 15px;
 }
 
-#blogcont img{
-    width: 100%;
-    max-width: 280px;
-    height: 280px;
-}
+
 
 
 /*section team*/
+#team{
+    max-height: 350px;
+}
+#team .info-dev h4, p{
+color: floralwhite;
+}
 
 #team {
     background: #333333;
@@ -81,7 +139,7 @@
 }
 
 .info-dev img{
-    width: 180px;
+    width: 160px;
     height: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
@@ -93,7 +151,8 @@
 
 footer{
     max-width: 1350px;
-    margin: auto;
+    
+    height: 15px;
 }
 
 /*footer .logo-foot{
@@ -103,18 +162,19 @@ footer{
     width: 80px;
 }*/
 
-footer .redes-footer {
+footer #acerca .redes-footer {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin: 10px;
+
 }
 
-footer .redes-footer a {
-    font-size: 40px;
+footer #acerca .redes-footer a {
+    font-size: 20px;
     margin: 10px;
     background: whitesmoke;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,46 +182,82 @@ footer .redes-footer a {
     color: rgb(207, 197, 197);
 }
 
-footer .redes-footer .fa-instagram:hover{
+footer #acerca .redes-footer .fa-instagram:hover{
     background: rgb(218, 60, 205);
     color: #333;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     font-size: 40px;
     margin: 10px;
 
 }
 
-footer .redes-footer .fa-facebook-f:hover{
+footer #acerca .redes-footer .fa-facebook-f:hover{
     background: rgb(32, 32, 175);
     color: cornsilk;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     font-size: 40px;
     margin: 10px;
 }
 
-footer .redes-footer .fa-whatsapp:hover {
+footer #acerca .redes-footer .fa-whatsapp:hover {
     background: rgb(85, 207, 122);
     color: cornsilk;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     font-size: 40px;
     margin: 10px;
 }
 footer hr{
-    margin-top: 20px;
+    margin-top: 10px;
     border: none;
     height: 2px;
     background: #cedad7;
 }
 
-footer h4{
+footer .derecho p{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 12px;
     color:seashell;
-    font-weight: 500;
+    font-weight: 200;
+}
+footer h5{
+    width: 7px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 32px;
+    color: floralwhite;
+}
+
+/*SECCION DE INFORMACION*/
+#acerca{
+    display: flex;
+    margin-left: 32px;
+}
+
+#acerca .empresa{
+    max-width: 320px;
+    margin-top: 3px;
+}
+#acerca .mision{
+    max-width: 320px;
+    margin-top: 3px;
+}
+#acerca .recorrido{
+    max-width: 320px;
+    margin-top: 3px;
+}
+#acerca .redes-footer{
+    max-width: 250px;
+    margin-top: 3px;
+    display: flex;
+}
+
+#acerca .redes-footer h6{
+    color:floralwhite;
+    
 }

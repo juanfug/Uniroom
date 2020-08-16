@@ -46,15 +46,14 @@ header{
     margin-left: 10px;
     margin-top: 15px;
     font-size: 22px;
-    color: rgba(0, 77, 128, 0.815);
+    color: azure;
 }
 .fondo-header b{
     font-weight: 100;
     margin-left: 10px;
     margin-top: 15px;
-    
     font-size: 28px;
-    color: rgba(0, 77, 128, 0.815);
+    color: rgba(134, 178, 207, 0.815);
 }
 .menu-header{
     height: 50px;
@@ -67,6 +66,8 @@ header{
     display: flex;
     height: 100%;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 .menu-header nav li{
     height: 100%;
@@ -86,7 +87,7 @@ header{
     left: 0;
 }
 .menu-header nav ul li a{
-    color: rgba(0, 77, 128, 0.815);
+    color: rgba(210, 225, 235, 0.815);
     transition: color 300ms;
     font-size: 18px;
 }
@@ -124,7 +125,7 @@ header{
 /*Slider*/
 
 .slider{
-    width: 1350px;
+    width: 1349px;
     margin: 0;
     overflow: hidden;
     
