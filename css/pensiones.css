@@ -1,0 +1,66 @@
+
+
+.contenido-pensiones{
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-gap: 30px;
+}
+@media screen and (min-width: 590px){
+    .contenido-pensiones{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 960px){
+    .contenido-pensiones{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*imagenes efecto hover para pantalla de pensiones*/
+.imgs{
+    cursor: pointer;
+    background-color: seashell;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0,.095);
+    margin: 20px;
+    transition: all 300ms;
+    position: relative;
+}
+.imgs:hover{
+    transform: scale(1.05);
+}
+.imgs::after{
+    content: "";
+    background-color: rgba(179, 229, 252,.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0; 
+}
+.imgs:hover::after{
+    opacity: 1;
+    transform: scale(1);
+}
+.items-img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+.textdes{
+    padding: 1em;
+}
+main .contenido-pensiones .imgs .textdes h4, P {
+    text-decoration-color: black;
+    color: black;
+}

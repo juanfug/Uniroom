@@ -5,8 +5,7 @@
     left: 18%;
     transform: translateX(-50%) translateY(-50%);
     opacity: 300%;
-    color:#fff;  
-     
+    color:#fff;   
 }
 
 .textconten h2{
@@ -117,6 +116,7 @@
 /*section team*/
 #team{
     max-height: 350px;
+    
 }
 #team .info-dev h4, p{
 color: floralwhite;
@@ -133,13 +133,17 @@ color: floralwhite;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    
 }
 .info-dev{
-    margin: 20px;
+    margin: 15px;
+    width: 400px;
+    height: 70%;
 }
 
 .info-dev img{
-    width: 160px;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
@@ -224,6 +228,10 @@ footer .derecho p{
     margin-top: 12px;
     color:seashell;
     font-weight: 200;
+}
+
+footer #acerca p{
+    color: seashell;
 }
 footer h5{
     width: 7px;
