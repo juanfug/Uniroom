@@ -118,7 +118,10 @@
     max-height: 350px;
     
 }
-#team .info-dev h4, p{
+#team .contenedor .info-dev h4 {
+color: floralwhite;
+}
+#team .contenedor .info-dev p{
 color: floralwhite;
 }
 
@@ -155,8 +158,10 @@ color: floralwhite;
 
 footer{
     max-width: 1350px;
-    
     height: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 90%;
 }
 
 /*footer .logo-foot{
@@ -219,13 +224,14 @@ footer #acerca .redes-footer .fa-whatsapp:hover {
 footer hr{
     margin-top: 10px;
     border: none;
-    height: 2px;
+    height: 3px;
     background: #cedad7;
+    width: 100%;
 }
 
 footer .derecho p{
     text-align: center;
-    margin-top: 12px;
+    margin-top: 20px;
     color:seashell;
     font-weight: 200;
 }
@@ -267,5 +273,6 @@ footer h5{
 
 #acerca .redes-footer h6{
     color:floralwhite;
-    
+    margin-bottom: 10px;
+    margin-top: 10px;    
 }

@@ -1,0 +1,92 @@
+.contenedorgaleria{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+/*------------------------------------------------------------------*/
+
+/*--------------------Header-----------------------*/
+
+/*------------------------------------------------------------------*/
+
+header{
+    padding: 40px 0;
+}
+
+header .logohead {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header .logohead p{
+    color: #9b9b9b;
+}
+
+header form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background: cornsilk;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header .categorias a{
+    color: cornsilk;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header .categorias a.activo{
+    color: darkgray;
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------Grid para imagenes-----------------------*/
+
+/*------------------------------------------------------------------*/
+
+
+.grid{
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+}
+
+.grid .item{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+    width: calc(33.333333% - 20px);
+}
+
+.grid .item-contenido {
+    position: relative;
+    
+}
+
+.grid .item img{
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    vertical-align: top;
+}
