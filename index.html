@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,29 +23,141 @@
     <!--css-->
     <!------------------------------------------------->
     <link rel="stylesheet" href="css/styleindex.css">
+    
+
 </head>
 <body>
-    <div class="modal-dialog text-center">
-        <div class="col-sm-8 main-section">
-            <div class="modal-content">
-                <div class="col-12 user-img">
-                    <img src="../UniRoom/img/avatar.jpg" alt="">
-                </div>
-                <form class="col-12">
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Usuario">
-                    </div>
-                    <div class="form-group" id="contrasena-group">
-                        <input type="password" class="form-control" placeholder="Contraseña">
-                    </div>
-                    <button type="button" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Iniciar Sesion</button>
-                </form>
-                <div class="col-12 forgot">
-                    <a href="#"> Olvide Mi Contraseña </a>
+    <div class="contenedorgaleria">
+        <header>
+            <div class="logohead">
+                <h1>UniRoom</h1>
+                <p>Tu nuevo hogar esta con nosotros, bienvenido nuevo Uni</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                            <a href="#" class="activo">Hoteles</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="inmuebles.html">Inmuebles</a>
+            <a href="pensiones.html">Pensiones</a>
+            <a href="index.html">Todos</a>
+            </div>
+        </header>
+        <section class="grid">
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/cama2.jpeg" alt="">
                 </div>
             </div>
-        </div>
-    </div>
 
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/cama3.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/cama7.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/cartagena/hoteles/hotelcart.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/monteria/inmuebles/pexels-binyamin-mellish-1396132.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/santamarta/habitaciones/pexels-patryk-kamenczak-775219.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/bogota/bogota.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/medellin/inmuebles/pexels-expect-best-323780.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="img/contenido/santamarta/inmuebles/pexels-daniel-frank-688835.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <main>
+        <section id="team">
+            <h3>Nuestro equipo de Trabajo</h3>
+            <div class="contenedor">
+                <div class="info-dev">
+                    <img src="img/contenido/1.jpeg" alt="persona sonriendo">
+                        <h4>Juan Fernando Utria Guisado</h4>
+                            <p>System engineer, Web debeloper, Co-Funder</p>
+                            <p>administrador principal de nuestras redes sociales</p>
+                </div>
+                <div class="info-dev">
+                    <img src="img/avatar.jpg" alt="">
+                        <h4>Vacante</h4>
+                            <p>Cupo disponible para cargo sin definir</p>
+                </div>
+                <div class="info-dev">
+                    <img src="img/avatar2.jpg" alt="">
+                        <h4>Cristian Gil</h4>
+                            <p>Civil engineer, Co-Funder</p>
+                </div>
+            </div>
+        </section
+    </main>
+        <footer> 
+            <!--<div class="logo-foot">
+                <img src="" alt="">
+            </div>-->
+            <h5>información</h5>
+            <section id="acerca">
+                
+                <div class="empresa">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eaque ex dolor officiis ipsam, incidunt sunt, cum quod voluptate similique earum, temporibus laudantium. 
+                    </p>
+                </div>
+                <div class="mision">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eaque ex dolor officiis ipsam, incidunt sunt, cum quod voluptate similique earum, temporibus laudantium. 
+                    </p>
+                </div>
+                <div class="recorrido">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eaque ex dolor officiis ipsam, incidunt sunt, cum quod voluptate similique earum, temporibus laudantium. 
+                    </p>
+                </div>
+                <div class="redes-footer">
+                    <h6>Contactanos </h6>
+                        <a clas="icon" href="https://www.instagram.com/pensionate_colombia/"><i class="fab fa-instagram"></i></a>
+                        <a clas="icon" href="https://www.facebook.com/PensionateColombia"><i class="fab fa-facebook-f"></i></a>
+                        <a clas="icon" href="https://api.whatsapp.com/send?phone=573187789368&text=Hola+buenas%2C+estoy+buscando+pensi%C3%B3n"><i class="fab fa-whatsapp"></i></i></a>
+                </div>
+        
+            </section>  
+            <hr>
+            <div class="derecho">
+                <p>© 2020 Juan Utria - Todos los derechos Reservados</p>
+            </div>
+    </footer>
+        <!--muuri-->
+        <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+        <script src="js/script.js"></script>  
 </body>
 </html>

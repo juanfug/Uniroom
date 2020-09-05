@@ -25,7 +25,6 @@
 
 /*imagenes efecto hover para pantalla de pensiones*/
 .imgs{
-    
     cursor: pointer;
     background-color: seashell;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0,.095);
@@ -67,9 +66,16 @@
 .textdes img{
     height: 150px;
 }
-main .contenido-pensiones .imgs .textdes h4, P {
+main .contenido-pensiones .imgs .textdes h4 {
     text-decoration-color: black;
     color: black;
+    font-size: 18px;
+    
+}
+main .contenido-pensiones .imgs .textdes P {
+    text-decoration-color: black;
+    color: black;
+    text-align: left;
 }
 
 .textdes a{
@@ -87,4 +93,42 @@ main .contenido-pensiones .imgs .textdes h4, P {
 .textdes a:hover{
     background: #2fb4cd;
     color:#fff;
+}
+
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*paginacion estilos*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+.paginacion {
+    margin: 20px 0;
+}
+
+.paginacion ul{
+    list-style: none;
+    text-align: center;
+}
+
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgb(34, 92, 92);
+    
+}
+
+.paginacion ul li a:hover{
+    background: rgb(53, 164, 207);
+}
+.paginacion ul li .active{
+    background: rgb(53, 164, 207);
+    font-weight: bold;
 }
