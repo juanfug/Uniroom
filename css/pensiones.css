@@ -169,7 +169,7 @@ body .gale{
     cursor: pointer;
 }
 .galeriap .imgg img:hover{
-    transform: scale(1.5) rotate(30deg);;
+    transform: scale(1.5) rotate(10deg);;
 }
 
 /*-------------------------------------------------*/
